@@ -13,7 +13,7 @@ conf_thres=0.4
 iou_thres=0.05
 
 def loadModelOne():
-    model = torch.hub.load('', 'custom', path=weights,source='local', device=device, force_reload=True)
+    model = torch.hub.load('', 'custom', path=weights,source='local', device=device)
     return model
 
 def loadModelTwo():
