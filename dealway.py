@@ -6,7 +6,7 @@ from utils.general import non_max_suppression
 import numpy as np
 import pandas as pd
 from utils.torch_utils import select_device
-import mouse
+# import mouse
 device=select_device('0')
 weights = 'best.pt'
 conf_thres=0.4
